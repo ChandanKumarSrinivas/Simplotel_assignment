@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: cabin;
+    font-family: "Cabin";
     /* outline: 1px solid black; */
     /* border: 1px solid black; */
     background: transparent;
+}
+
+* ::-webkit-scrollbar{
+    display: none;
 }
 
 nav{
@@ -21,15 +25,16 @@ nav ul{
 }
 
 nav ul div{
-    font-size: 18px;
+    font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    letter-spacing: 0.2ch;
+    /* font-family: "butterfly kids"; */
+    font-weight: 900;
+    letter-spacing: 0.3ch;
 }
 
 .icons{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     align-self: center;
 }
 
@@ -37,7 +42,7 @@ nav ul div{
     display: flex;
     /* flex-direction: row; */
     background-image: linear-gradient(to right, #f9eeab,#ffb0f2);
-    height: 93vh;
+    height: 92.2vh;
 }
 
 #first, #second{
@@ -75,6 +80,7 @@ nav ul div{
     width: 225px;
     background: #ff7070;
     border: none;
+    color: white;
 }
 
 #firstpage #second{
